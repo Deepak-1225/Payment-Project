@@ -1,0 +1,184 @@
+.container{
+    width: 100%;
+    margin-top: 50px;
+    font-size: 12px;
+    
+  }
+  
+  h4{
+    color:white
+  }
+  
+  .form-layout {
+    margin-top: 25px;
+    font-size: 12px;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif
+  }
+  
+  
+  label{
+    cursor: pointer;
+    display: inline-block;
+    padding: 4px 2px;
+    text-align: right;
+    width: 150px;
+    vertical-align: top;
+  }
+  input{
+    font-size: inherit;
+  }
+  
+  fieldset {
+    background-color: #eeeeee;
+  }
+  legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+  }
+  input {
+    margin: 5px;
+  }
+  
+  .form-style-10{
+  width:450px;
+  padding:30px;
+  margin:80px auto;
+  background: #FFF;
+  border-radius: 10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+  }
+  
+  fieldset.scheduler-border {
+  
+    border: 6px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin-left: 50px;
+          height: auto;
+          width: 90%;
+  }
+  legend.scheduler-border {
+    width:auto; /* Or auto */
+    padding:10px 10px; /* To give a bit of padding on the left and right */
+    border-bottom:none;
+    background-color: rebeccapurple
+  }
+  
+  
+  
+  .select {
+    position: relative;
+    min-width: 200px;
+  }
+  .select svg {
+    position: absolute;
+    right: 12px;
+    top: calc(50% - 3px);
+    width: 10px;
+    height: 6px;
+    stroke-width: 2px;
+    stroke: #9098a9;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    pointer-events: none;
+  }
+  .select select {
+    -webkit-appearance: none;
+    padding: 7px 40px 7px 12px;
+    width: 100%;
+    border: 1px solid #e8eaed;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 1px 3px -2px #9098a9;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    transition: all 150ms ease;
+  }
+  .select select:required:invalid {
+    color: #5a667f;
+  }
+  .select select option {
+    color: #223254;
+  }
+  .select select option[value=""][disabled] {
+    display: none;
+  }
+  .select select:focus {
+    outline: none;
+    border-color: #07f;
+    box-shadow: 0 0 0 2px rgba(0,119,255,0.2);
+  }
+  .select select:hover + svg {
+    stroke: #07f;
+  }
+  .sprites {
+    position: absolute;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    user-select: none;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .file input {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    padding: 120px 0px 85px 45%;
+    text-align: center ;
+    margin: 0;
+    width: 100% ;
+  }
+  .file input:focus{     outline: 2px dashed #92b0b3;  outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
+  }
+  .file{ position:relative}
+  .file:after {  pointer-events: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 50px;
+    right: 0;
+    height: 56px;
+    content: "";
+    background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .color input{ background-color:#f1f1f1;}
+  
+  .btn-success{
+  
+    border-radius: 4px;
+    padding: 0.3rem 0.6rem;
+  }
+  
+  .btn-primary{
+    border-radius: 4px;
+    padding: 0.3rem 0.6rem;
+  }
+  
+  .button2{
+  margin: 25px;
+  position: relative;
+  left:200px 
+  }
+  
