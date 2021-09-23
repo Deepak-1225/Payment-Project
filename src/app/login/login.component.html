@@ -2,13 +2,13 @@
 <div class="login">
     <div class="login-background">
         <div class="login-logo"> </div>
-        <div class="top-left"><h1>STOCKS &<br>ORDER MATCHING</h1></div>
+        <!-- <div class="top-left"><h1>STOCKS &<br>ORDER MATCHING</h1></div> -->
         <div class ="Box">
             <h3> LOGIN </h3> 
           <form [formGroup]="form" (ngSubmit)="submit()">
             <div class="form-group inputBox">
               <input formControlName="custodianID" id="custodianID" autocomplete="off" required type="text" class="form-control">
-<label>CustodianID</label>
+<label>Username</label>
 <div *ngIf="f.custodianID.touched && f.custodianID.invalid" class="alert alert-danger">
 <div *ngIf="f.custodianID.errors && f.custodianID.errors.required"><small>CustodianID is required</small></div>
 </div>
